@@ -24,6 +24,20 @@
                 color:yellow;
                 text-decoration: none;
             }
+            table,th,td{
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            th{
+                padding: 20px;
+                font-size: 30px;
+                text-align: center;
+            }
+            td{
+                text-align: left;
+                padding:10px;
+                font-size:25px;
+            }
         </style>
     </head>
     <body>
@@ -49,6 +63,8 @@
             <li><a href="#c5" style="padding: 10px;">JUMP to LINKS</a> </li>
             <br>
             <li><a href="#c6" style="padding: 10px;">JUMP to IMAGE</a></li>
+            <br>
+            <li><a href="#c7" style="padding: 10px;" >JUMP to TABLE</a></li>
         </ul>
         <h1> How does HTML page look like ?</h1>
           <a href="https://www.w3schools.com/html" target="_blank">
@@ -131,6 +147,57 @@
     <a href="#c52" title="here you have to give id " style="padding-left: 30px"> this is use html BOOKMARKS</a>
     <hr>
     <h1 id="c6" style="text-align: center;padding: 20px;font-size: 60px;background-color: rgb(255, 99, 71);color:whitesmoke">IMAGE IN HTML</h1> 
+    <ol>
+        <li style="font-size: 25px;"><b>Using map:</b></li>
+        <br>
+        
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1eca6656633615.59c911f4cc736.jpg" usemap="#mapping">
+        <map name="mapping">
+            <area target="_blank" href="https://en.wikipedia.org/wiki/Circle" shape="circle" coords="302,340,88">
+            <area target="_blank" href="https://en.wikipedia.org/wiki/rectangle" shape="rect" coords="517,255,688,425">
+            <area target="_blank" href="https://en.wikipedia.org/wiki/triangle" shape="poly" coords="799,426,902,246,1004,425">
+            <br>
+            <p style="font-size: 30px;">Using map when we target a specific shape to specific link</p> 
+        </map>
+        <li style="font-size: 25px;"><b>PICTURE</b></li>
+        <picture>
+            <source media="(min-width:800px)" srcset="https://images.wallpaperscraft.com/image/black_light_dark_figures_73356_1920x1080.jpg">  
+            <source media="(min-width:480px)" srcset="https://dspncdn.com/a1/media/692x/0c/3d/29/0c3d299d505825affb10e2455cf93ab6.jpg">
+                <img src="https://images.wallpaperscraft.com/image/black_light_dark_figures_73356_1920x1080.jpg">  
+        </picture>
+        <p style="font-size: 30px;"> trying resizing your browser to see the effect</p>
+    </ol>
+    <h1 id="c7" style="text-align: center;padding: 20px;font-size: 60px;background-color: rgb(255, 99, 71);color:whitesmoke">TABLES</h1> 
+    <br>
+    <p>Html also provids table feature also. The table given below is created by this feature :</p>
+    <table style="width: 100%;">
+        <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Company</th>
+        </tr>
+        <tr>
+            <td>Steve</td>
+            <td>Jobs</td>
+            <td><a href="https://www.apple.in" target="_blank">Apple Inc</a></td>
+        </tr>
+        <tr>
+            <td>Sundar </td>
+            <td>Pichai</td>
+            <td><a href="https://www.google.com" target="_blank">Google</a></td>
+        </tr>
+        <tr>
+            <td>Elon</td>
+            <td>Musk</td>
+            <td><a href="https://www.tesla.com" target="_blank">Tesla</a></td>
+        </tr>
+        <tr>
+            <td>Bill</td>
+            <td>Gates</td>
+            <td><a href="http://microsoft.com/" target="_blank">Microsoft</a></td>
+        </tr>
+
+    </table>
 
     </body>
 </html>
