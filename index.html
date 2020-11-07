@@ -2,8 +2,20 @@
 <html lang='en'>
     
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>WHAT IS HTML ?</title>
         <style>
+            .avengers{
+                background-color: goldenrod;
+                color:maroon;
+                padding: 10px;
+                font-size: 30px;
+                
+                margin:10px;
+            }
+            #head1{
+                font-size: 8vw;
+            }
            
             a:link{
                 color:sandybrown;
@@ -42,7 +54,7 @@
     </head>
     <body>
         <h1 style="font-size:50px; color:red; background-color:black; padding:20px; text-align:center ">What is HTML ?</h1>
-        <img src="https://blog.edx.org/wp-content/uploads/2015/09/null-1.jpg" alt="NO IMAGE FOUND">
+        <img src="https://blog.edx.org/wp-content/uploads/2015/09/null-1.jpg" alt="NO IMAGE FOUND" style="width:100%;">
         <ul>
             <li>HTML stands for Hyper Text Markup Language</li>
             <li>HTML elements tell the browser how to diplay content</li>
@@ -67,10 +79,16 @@
             <li><a href="#c7" style="padding: 10px;" >JUMP to TABLE</a></li>
             <br>
             <li><a href="#c8"  style="padding: 10px;">JUMP to TYPES OF LIST</a></li>
+            <br>
+            <li><a href="#c9"  style="padding: 10px;">BLOCK AND INLINE</a></li>
+            <br>
+            <li><a href="#c10"  style="padding: 10px;">CLASSES</a></li>
+            <br>
+            <li><a href="#c11"  style="padding: 10px;">I FRAMES</a></li>
         </ul>
         <h1> How does HTML page look like ?</h1>
           <a href="https://www.w3schools.com/html" target="_blank">
-              <img src="https://www.w3schools.com/html/img_notepad.png" style="border:none;">
+              <img src="https://www.w3schools.com/html/img_notepad.png" style="border:none;max-width: 100%;">
           </a>
             <hr>
             <h1 id="c1" style="text-align: center;padding: 20px;font-size: 60px;background-color: rgb(255, 99, 71);color:whitesmoke">FORMATTING</h1>        
@@ -89,7 +107,9 @@
                 <h3>it is used for short qoute: <q>small qoutes only</q></h3>
                 <h3>abbr: <abbr title="this is use of abbr" style="color: darkgreen; ">hover over this</abbr></h3>
                 <h3>bdo: <bdo dir="rtl">THIS is use bdo</bdo></h3>
-                <a href="https://www.luxeva.com/2019/12/the-world-s-most-expensive-paintings-that-will-inspire-you-to-pick-up-a-paintbrush/" target="_blank"><img src="https://img-static.popxo.com/luxeva-prod/app_photos/images/000/011/465/original/Mona_Lisa_by_Leonardo_da_Vinci_Louvre_Instagram.jpg" alt="mona lisa"></a>
+                <br>
+                <br>
+                <a href="https://www.luxeva.com/2019/12/the-world-s-most-expensive-paintings-that-will-inspire-you-to-pick-up-a-paintbrush/" target="_blank"><img src="https://img-static.popxo.com/luxeva-prod/app_photos/images/000/011/465/original/Mona_Lisa_by_Leonardo_da_Vinci_Louvre_Instagram.jpg" alt="mona lisa" style="max-width: 50%;"></a>
                 <cite style="padding-top: 100px;text-align: center;">This is cite</cite>
                 <h2>for more imformation visit About: <a href="https://www.w3schools.com/html/html_quotation_elements.asp" target="_blank">Quotations</a></h2>
             </pre>
@@ -105,7 +125,7 @@
                     <hr>
             <h1  id="c4" style="text-align: center;padding: 20px;font-size: 60px;background-color: rgb(255, 99, 71);color:whitesmoke">CSS CASCADING STYLESHEET</h1>        
             <p> CSS saves a lot of work. It can control the layout of multiple web pages all at once.</p>
-            <img src="https://miro.medium.com/max/1000/0*cMF8QUWUNP-jDoEv.jpg" alt="NOT IMAGE FOUND" style="float:inline-start">
+            <img src="https://miro.medium.com/max/1000/0*cMF8QUWUNP-jDoEv.jpg" alt="NOT IMAGE FOUND" style="float:left; width: 100%;" >
             <h2>USING CSS</h2>
             <ul style="padding:20px;">
                 <li style="padding:5px;"><b><ins>INLINE CSS:</ins></b> by using the style attribute inside HTML elements</li>
@@ -150,7 +170,7 @@
         <li style="font-size: 25px;"><b>Using map:</b></li>
         <br>
         
-        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1eca6656633615.59c911f4cc736.jpg" usemap="#mapping">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1eca6656633615.59c911f4cc736.jpg" usemap="#mapping" style="width:100%;">
         <map name="mapping">
             <area target="_blank" href="https://en.wikipedia.org/wiki/Circle" shape="circle" coords="302,340,88">
             <area target="_blank" href="https://en.wikipedia.org/wiki/rectangle" shape="rect" coords="517,255,688,425">
@@ -160,12 +180,13 @@
         </map>
         <li style="font-size: 25px;"><b>PICTURE</b></li>
         <picture>
-            <source media="(min-width:800px)" srcset="https://images.wallpaperscraft.com/image/black_light_dark_figures_73356_1920x1080.jpg">  
+            <source media="(min-width:800px)" srcset="https://images.wallpaperscraft.com/image/black_light_dark_figures_73356_1920x1080.jpg" >  
             <source media="(min-width:480px)" srcset="https://dspncdn.com/a1/media/692x/0c/3d/29/0c3d299d505825affb10e2455cf93ab6.jpg">
                 <img src="https://images.wallpaperscraft.com/image/black_light_dark_figures_73356_1920x1080.jpg">  
         </picture>
         <p style="font-size: 30px;"> trying resizing your browser to see the effect</p>
     </ol>
+    <hr>
     <h1 id="c7" style="text-align: center;padding: 20px;font-size: 60px;background-color: rgb(255, 99, 71);color:whitesmoke">TABLES</h1> 
     <br>
     <p>Html also provides table feature also. The table given below is created by this feature :</p>
@@ -196,6 +217,7 @@
             <td><a href="http://microsoft.com/" target="_blank">Microsoft</a></td>
         </tr>
     </table>
+    <hr>
     <h1 id="c8" style="text-align: center;padding: 20px;font-size: 60px;background-color: rgb(255, 99, 71);color:whitesmoke">TYPES OF LIST</h1> 
     <p style="font-size: 30px;">to display list horizontally use float attribute. Like  this</p>
     <h2>this is unordered list</h2>
@@ -209,8 +231,8 @@
     <br>
     <br>
     <h2>this is unordered list</h2>
-    <ol>
-        <li style="float: left;padding:20px">THANOS</li>
+    <ol >
+        <li style="float: left;padding:20px">THANOS  </li>
         <li style="float: left;padding:20px">IRONMAN</li>
         <li style="float: left;padding:20px">THOR</li>
         <li style="float: left;padding:20px">HULK</li>
@@ -219,7 +241,7 @@
     <br>
     <br>
     <h2>this is description list</h2>
-    <dl>
+    <dl style="padding: 10px">
         <dt style="padding:20px">THANOS</dt>
             <dd>Joshua James Brolin</dd>
         <dt style="padding:20px">IRONMAN</dt>
@@ -230,5 +252,51 @@
         <dd>Mark Ruffalo</dd>
 
     </dl>
+    <hr>
+    <h1 id="c9" style="text-align: center;padding: 20px;font-size: 60px;background-color: rgb(255, 99, 71);color:whitesmoke">BLOCK AND INLINE</h1>
+    <br>
+    <h2>BLOCK</h2>
+    <br>
+    <div style="background-color: cornsilk;padding: 20px;border: 2px solid black;">
+    <p style="font-size: 20px;">div element is often used as a container for other HTML elements. It has no required attributes, but style, class and id are common.
+        <br>
+        When used together with CSS, the <span style="color: red;"> div</span> element can be used to style blocks of content:
+    </p>
+</div>
+<h2>INLINE</h2>
+<p style="font-size: 20px;"> The <span style="color:crimson;font-size:25px">span</span> element is an inline container used to mark up a part of a text, or a part of a document. Element has no required attributes, but style, class and id are common.</p>
+<hr>
+<h1 id="c10" style="text-align: center;padding: 20px;font-size: 60px;background-color: rgb(255, 99, 71);color:whitesmoke">CLASSES</h1>
+<br>
+<p style="font-size: 20px;">The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.
+<br>
+next few line are example of class</p>
+<div class="avengers">
+    <h2 style="text-align: center;">THOR</h2>
+    <p>King of  ASGARD</p>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Chris_Hemsworth_as_Thor.jpg/220px-Chris_Hemsworth_as_Thor.jpg"  >
+
+</div>
+<div class="avengers" style="background-color:orangered;color:white">
+    <h2 style="text-align: center;">IRONMAN</h2>
+    <p>LOVE YOU 3000</p>
+    <img src="https://upload.wikimedia.org/wikipedia/en/8/84/Robert_Downey_Jr_as_Iron_Man.jpg">
+
+</div>
+    
+<div class="avengers">
+    <h2 style="text-align: center;">BLACK PANTHER</h2>
+    <p>King of  WAGANDA</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Chadwick_Boseman_by_Gage_Skidmore_July_2017_%28cropped%29.jpg/220px-Chadwick_Boseman_by_Gage_Skidmore_July_2017_%28cropped%29.jpg" >
+</div>
+<hr>
+<h1 id="c11"  style="text-align: center;padding: 20px;font-size: 8vw;background-color: rgb(255, 99, 71);color:whitesmoke">I FRAMES</h1>
+<p style="font-size: 20px;">This will let you view tthe page in a particular frames as specified by you</p>
+<br>
+<iframe src="https://en.wikipedia.org" width="1400px" height="700px" style="border: 2px solid red; width: 100%;" title="Iframe Example"></iframe>
+    <br>
+<hr>
+
+
     </body>
 </html>
