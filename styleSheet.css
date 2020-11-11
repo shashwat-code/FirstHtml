@@ -56,5 +56,34 @@ body{
     height: 45%;
     width: 50%;
 }
+.selector{
+    width: 100%;
+
+    color:white;
+}
+.selector h1{
+    float: left;
+    font-size: 6vw;
+    text-align: center;
+    width:100%
+}
+.selector dl{
+    font-size: 4vw;
+    float: left;
+    width: 100%;
+}
+.selector img{
+    float: right;
+    height: 45%;
+    width: 50%;
+}
+.selector dt{
+    font-size: 3vw;
+    float: left;
+}
+.selector dd{
+    font-size: 3vw;
+    margin-left: 10%;
+}
 
 
