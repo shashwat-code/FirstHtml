@@ -1,10 +1,12 @@
 *{
     box-sizing: border-box;
 }
+
 body{
+    
     background-repeat: no-repeat;
     background-image: url("https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
 }
 #main{
@@ -78,6 +80,7 @@ body{
 .selector dt{
     font-size: 3vw;
     float: left;
+    margin-left: 10%;
 }
 .selector dd{
     position: relative;
@@ -85,4 +88,21 @@ body{
     margin-left: 10%;
 }
 
-
+.border{
+    float: left;
+   width: 100%;
+}
+.border h1{
+    font-size: 6vw;
+    color: white;
+    text-align: center;
+}
+.border h3{
+    margin-right: 2%;
+    margin-left: 2%;
+    color:white;
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
