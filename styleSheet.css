@@ -133,7 +133,7 @@ body{
     text-align: center;
     width: 100%;
     margin-left: 40%;
-    margin-bottom: 10%;
+    margin-bottom : 10%;
 
 }
 .text a:visited{
@@ -152,4 +152,7 @@ body{
 }
 .text a:active{
     color:blanchedalmond;
+}
+iframe{
+    margin-left: 10%;
 }
