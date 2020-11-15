@@ -14,6 +14,7 @@
                <li><a href="#c3">How to do</a></li>
                <li><a href="#c4">Background</a></li>
                <li><a href="#c5">Border</a></li>
+               <li><a href="#c6">Text</a></li>
             </ul>
         </div>
         <br>
@@ -132,18 +133,52 @@ The internal style is defined inside the &ltstyle&gt element, inside the head se
             <br>
             <h3 style="border: 1px dotted ">I am dotted border</h3>
             <br>
-            <h3 style="border-style: dotted dashed solid none; border-width: 1px border-color:red;">I am border</h3>
+            <h3 style="border-style: dotted dashed solid none; border-width: 1px;">I am border</h3>
+        </div>
+        <hr style="width:100%">
+        <div class="text" id="c6">
+            <h1>TEXT</h1>
+            <dl>
+                <dt>
+                   <h2>a. Text Transformation</h2>
+                </dt>
+                <dd>
+                    <h2 style="margin-left: 3vw;color: violet;">* this is NoRMaL TeXT *</h2>
+                    <ol>
+                        <li><h3>Capatalize: <span style="text-transform:capitalize;font-size: 3vw;">this is normal text</span></h3></li>
+                        <li><h3>Lowercase: <span style="text-transform:lowercase;font-size: 3vw;">this is normal text</span></h3></li>
+                        <li> <h3>Uppercase: <span style="text-transform:uppercase;font-size: 3vw;">this is normal text</span></h3></li>
+                    </ol>
+                </dd>
+                <dt><h2>b. Text Spacing</h2></dt>
+                <dd>
+                    <ol>
+                        <li><h3>Text Indentation:</h3></li>
+                        <p style="text-indent: 10%;font-size: 3vw;width: 95%;">&lt-this is indentation. In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had. </p>
+                        <li><h3>Letter Spacing:<br></h3></li>
+                        <p style="font-size: 3vw;width: 95%;"><span style="letter-spacing: 10px;">this is letter spacing with 10px</span>
+                        <br>
+                        <span style="letter-spacing: -5px;">this is letter spacing with -5px</span>
+                    </p>
+
+                    </ol>
+                </dd>
+            </dl>
+
+         
         </div>
         <hr style="width:100%">
         <div class="text">
-            <h1>TEXT</h1>
-            <h3>this is NORMAL TEXT</h3>
-            <br>
-            
+            <h1>Font</h1>
+            <h3>text below is small-caps in font-variant</h3>
+            <h3 style="font-variant: small-caps;">Text Below Is smAll-caPs In fOnt-vAriaNt</h3>
         </div>
-
-    
-       
+        <hr style="width:100%">
+        <div class="text">
+            <h1>Link</h1>
+            <a href="beginnerCss.html" target="_blank">click the link below</a>
+        </div>
+        <hr style="width:100%">
 
     </body>
 </html>
