@@ -133,7 +133,7 @@ body{
     text-align: center;
     width: 100%;
     margin-left: 40%;
-    margin-bottom: 50%;
+    margin-bottom: 10%;
 
 }
 .text a:visited{
@@ -144,6 +144,7 @@ body{
     color:white;
     letter-spacing: 2px;
     background-color: red;
+    padding:10px
 }
 .text a:link{
     text-decoration: none;
