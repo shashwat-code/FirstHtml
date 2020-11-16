@@ -2,7 +2,6 @@
 <html>
     <head>
   <link rel="stylesheet" href="styleSheet.css">
-
     </head>
     <body>
         <h1 id="main">CSS TUTORIAL</h1>
@@ -15,18 +14,27 @@
                <li><a href="#c4">Background</a></li>
                <li><a href="#c5">Border</a></li>
                <li><a href="#c6">Text</a></li>
+               <li><a href="#c7">Font</a></li>
+               <li><a href="#c8">Link</a></li>
+               <li><a href="#c9">Position</a></li>
             </ul>
         </div>
         <br>
-        <hr>
-        
+        <hr>  
         <div class="intro" id="c1">
-            <h1>INTRODUCTION TO CSS</h1>
+            <h1>Introduction To CSS</h1>
+       
+            <img src="https://sabe.io/classes/css/hero.png">
             <p>Cascading Style Sheets is a style sheet language used for describing the
                  presentation of a document written in a markup language such as HTML. 
-                 CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. 
-            </p>
-            <img src="https://sabe.io/classes/css/hero.png">
+                 CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+                 CSS is the language for describing the presentation of Web pages, including colors, 
+                 layout, and fonts. It allows one to adapt the presentation to different types of
+                  devices, such as large screens, small screens, or printers. CSS is 
+                  independent of HTML and can be used with any XML-based markup 
+                  language.</p>
+          
+            <br>
         </div>
         <hr style="width: 100%;">
         <div class ="selector" >
@@ -154,7 +162,13 @@ The internal style is defined inside the &ltstyle&gt element, inside the head se
                 <dd>
                     <ol>
                         <li><h3>Text Indentation:</h3></li>
-                        <p style="text-indent: 10%;font-size: 3vw;width: 95%;">&lt-this is indentation. In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had. </p>
+                        <p style="text-indent: 10%;font-size: 3vw;width: 95%;">&lt-this 
+                            is indentation. In my younger and more vulnerable years
+                             my father gave me some advice that I've been turning 
+                             over in my mind ever since. 'Whenever you feel like 
+                             criticizing anyone,' he told me, 'just remember 
+                             that all the people in this world haven't had the 
+                             advantages that you've had. </p>
                         <li><h3>Letter Spacing:<br></h3></li>
                         <p style="font-size: 3vw;width: 95%;"><span style="letter-spacing: 10px;">this is letter spacing with 10px</span>
                         <br>
@@ -162,32 +176,32 @@ The internal style is defined inside the &ltstyle&gt element, inside the head se
                     </p>
                     <li><h3>Text Shadow</h3></li>
                     <p style="text-shadow: 5px 5px 10px black;font-size: 5vw;margin-left: 20%;">text shadow</p>
-
                     </ol>
                 </dd>
             </dl>
         </div>
         <hr style="width:100%">
-        <div class="text">
+        <div class="text" id="c7">
             <h1>FONT</h1>
             <h3>text below is small-caps in font-variant</h3>
             <h3 style="font-variant: small-caps;">Text Below Is smAll-caPs In fOnt-vAriaNt</h3>
         </div>
         <hr style="width:100%">
-        <div class="text">
+        <div class="text" id="c8">
             <h1>LINK</h1>
             <a href="beginnerCss.html" target="_blank">click the link below</a>
             <br>
             <br>
         </div>
         <hr style="width:100%">
-        <div class="text">
+        <div class="text" id="c9">
             <h1>POSITION</h1>
+            <h2>this is <span style="position:static;"> relative position</span></h2>
+            <iframe src="sticky.html" width="80%" height=450px></iframe>
+           
         </div>
-        <iframe src="sticky.html" width="80%" height=450px></iframe>
+       
         <hr style="width:100%">
-
-
-
     </body>
-</html>
+    
+    </html>
