@@ -44,19 +44,19 @@ body{
     color: white;
 }
 .intro h1{
-    float: left;
+   
     font-size: 6vw;
     text-align: center;
 }
 .intro p{
     position: relative;
     margin-top: 0%;
-    font-size: 4vw;
-    float: left;
-    width: 50%;
+    font-size: 3vw;
+   
+   
 }
 .intro img{
-    float: left;
+   float:right;
     height: 45%;
     width: 50%;
 }
@@ -155,4 +155,12 @@ body{
 }
 iframe{
     margin-left: 10%;
+}
+.text img{
+    
+    width:30%;
+    height: 20%;
+    z-index: -1;
+    float: left;
+    margin-top: 0%;
 }
